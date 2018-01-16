@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.singularRow {
+    background-color: #e4ffed;
+}
+
+.complexRow {
+    background-color: #ffdfff;
+}
+
+table td {
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    margin: 0px;
+    border: aquamarine 1px solid;
+}
+
+table th {
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    margin: 0px;
+    border: aquamarine 1px solid;
+}
+
+table tr th a{
+    text-decoration: none;
+    color: black;
+}
+
+table tr th a:hover{
+    color: cadetblue;
+}
+
+.singularRow:hover, .complexRow:hover {
+    background-color: aqua;
+}
+
